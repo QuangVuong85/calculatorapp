@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: #c4beb7;
+}
+
+.App {
+    width: 400px;
+    margin: 0 auto;
+    background: #ccc;
+    box-shadow: 0 0 5px;
+    margin-top: 100px;
+}
+
+.value-container {
+    padding-top: 1.75%;
+}
+
+.value-container input {
+    display: block;
+    width: 95%;
+    border: none;
+    height: 30px;
+    text-align: right;
+    padding: 0 10px;
+    margin: 0 auto;
+    font-size: 22px;
+    font-weight: 700;
+    color: lightslategrey;
+}
+
+.buttons-container {
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.buttons-container button {
+    width: 20%;
+    height: 30px;
+    line-height: 30px;
+    margin: 2%;
+    outline: none;
+    background: #f2f1f0;
+    color: black;
+    border: none;
+    font-weight: 700;
+}
+
+.buttons-container button:active {
+    background: #cca;
+}
+
+.buttons-container button:hover {
+    background: #cca;
+}
+
+.buttons-container button:visited {
+    background: #cca;
+}
