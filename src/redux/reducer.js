@@ -16,7 +16,7 @@ const calculatorReducer = (state = initState, action) => {
         case DELETE:
             return {
                 ...state,
-                value: action.text.substr(0, action.text.length - 1)
+                value: action.text.substring(0, action.text.length - 1)
             }
         case CLEAR:
             return {
